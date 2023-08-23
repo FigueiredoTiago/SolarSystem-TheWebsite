@@ -1,10 +1,10 @@
 import "./styles.scss";
 import system from "../../assets/img/sistemSolar.svg";
-const SolarSystem = () => { 
+const SolarSystem = () => {  
   return (
     <section className="SolarSystem-section container">
       
-        <section className="left-section">
+        <section className="left-section grid-6">
           <div className="info-text">
             <h1 className="title">O Sistema Solar</h1>
             <p>
@@ -36,7 +36,7 @@ const SolarSystem = () => {
           </div>
         </section>
 
-        <section className="right-section">
+        <section className="right-section grid-6">
           <img src={system} alt="" />
         </section>
       
