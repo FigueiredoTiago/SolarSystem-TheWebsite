@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import "./styles.scss";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -7,32 +8,40 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import BoxSlide from "../BoxSlide/BoxSlide";
 
 const Planets = () => {
+
   return (
     <section className="planets-section container">
       <h1 className="title">Planetas do Sistema Solar</h1>
 
       <Swiper
-        slidesPerView={"auto"}
+        slidesPerView={1}
+        centeredSlides={true}
         spaceBetween={30}
         pagination={{
-          clickable: true,
+          type: "fraction",
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><BoxSlide /></SwiperSlide>
-        <SwiperSlide><BoxSlide /></SwiperSlide>
-        <SwiperSlide><BoxSlide /></SwiperSlide>
-        <SwiperSlide><BoxSlide /></SwiperSlide>
-        <SwiperSlide><BoxSlide /></SwiperSlide>
-        
+        <SwiperSlide>
+          <BoxSlide />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BoxSlide />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BoxSlide />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BoxSlide />
+        </SwiperSlide>
         
       </Swiper>
-
     </section>
   );
 };

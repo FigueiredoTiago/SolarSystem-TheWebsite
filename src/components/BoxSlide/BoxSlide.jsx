@@ -4,7 +4,9 @@ import "./styles.scss";
 const BoxSlide = () => {
   return (
     <div className="box-slide">
+
       <img src={mars} alt="Planeta do Sistema Solar" />
+
 
       <p>
         Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema
