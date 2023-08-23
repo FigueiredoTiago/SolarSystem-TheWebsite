@@ -40,10 +40,14 @@
   border: 1px solid #000000;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  padding: 12px 44px;
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
   font-size: 17px;
   font-weight: bold;
-  padding: 12px 44px;
+  }
 }
 
 .astronauta {

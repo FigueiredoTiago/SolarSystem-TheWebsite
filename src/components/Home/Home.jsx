@@ -15,8 +15,8 @@ const Home = () => {
 
           <h1 className="home-title">Wellcome To Solar System</h1>
           <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
-          <button className="button">Explore Now</button>
-          
+          <button className="button"><a href="#solar-system">Explore Now</a></button>
+
         </div>
 
         <img src={astronaut} className="astronauta" />
