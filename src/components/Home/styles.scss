@@ -1,13 +1,23 @@
-.home-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@import '../../sass/grid';
+.bg-div {
   height: 100vh;
 
   background-image: url("../../assets/img/solarSBg.svg");
   background-repeat: no-repeat;
-  background-size:80%;
+  background-size:cover;
   background-position: center;
+  overflow-x: hidden;
+}
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  // background-image: url("../../assets/img/solarSBg.svg");
+  // background-repeat: no-repeat;
+  // background-size:cover;
+  // background-position: center;
 }
 
 .info-title {
@@ -56,7 +66,7 @@
   animation: astronautFloat 5s infinite alternate;
 
   position: absolute;
-  right: -5rem;
+  right: -5%;
   top: 15rem;
 }
 
@@ -67,6 +77,10 @@
   width: 100%;
   max-width: 200px;
   animation: astronautFloat 5s infinite alternate;
+
+  @include device('m') {
+    bottom: 0;
+  }
 }
 
 .earth {

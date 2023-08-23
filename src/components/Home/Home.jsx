@@ -5,23 +5,20 @@ import earth from '../../assets/img/earth.svg';
 
 const Home = () => {
   return (
-    <section className="home-section container">
+    <div className="bg-div">
+      <section className="home-section container">
       
-        <img src={earth} alt="" className="earth" />
-
-        <img src={dog} className="dog" />
-
-        <div className="info-title" >
-
-          <h1 className="home-title">Wellcome To Solar System</h1>
-          <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
-          <button className="button"><a href="#solar-system">Explore Now</a></button>
-
-        </div>
-
-        <img src={astronaut} className="astronauta" />
-    
-    </section>
+          <img src={earth} alt="" className="earth" />
+          <img src={dog} className="dog" />
+          <div className="info-title" >
+            <h1 className="home-title">Wellcome To Solar System</h1>
+            <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
+            <button className="button"><a href="#solar-system">Explore Now</a></button>
+          </div>
+          <img src={astronaut} className="astronauta" />
+      
+      </section>
+    </div>
   );
 };
 
