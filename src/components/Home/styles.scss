@@ -1,0 +1,93 @@
+.home-section {
+  min-height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 10rem;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+
+  .home-title {
+    font-size: 4.8rem;
+  }
+
+  .home-subtitle {
+    font-size: 2.4rem;
+  }
+
+  .button {
+    border: none;
+    width: 18.2rem;
+    height: 4.7rem;
+    border-bottom-right-radius: 3rem;
+    font-weight: bold;
+  }
+
+  .astronauta {
+    width: 100%;
+    max-width: 300px;
+    animation: astronautFloat 5s infinite alternate;
+
+    position: absolute;
+    right: -5rem;
+    top: 15rem;
+  }
+
+  .dog {
+    position: absolute;
+    left: 20rem;
+    bottom: 10rem;
+    width: 100%;
+    max-width: 200px;
+    animation: astronautFloat 5s infinite alternate;
+    
+  }
+
+  .earth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 120px;
+    animation: rotate 40s linear infinite;
+  }
+
+  @keyframes astronautFloat {
+    0% {
+      transform: translateY(0) rotate(0);
+    }
+
+    100% {
+      transform: translateY(-30px) rotate(6deg);
+    }
+  }
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes loop {
+  0%, 100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+// animation: loop 6s linear infinite;
