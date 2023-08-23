@@ -1,19 +1,20 @@
-import mars from "../../assets/img/planets/mars.png";
+/* eslint-disable react/prop-types */
 import "./styles.scss";
 
-const BoxSlide = () => {
+const BoxSlide = ({name, description, img}) => {
   return (
     <div className="box-slide">
 
-      <img src={mars} alt="Planeta do Sistema Solar" />
+      <img src={img} alt="Planeta do Sistema Solar" />
 
 
-      <p>
-        Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema
-        Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes
-        é descrito como o Planeta Vermelho, porque o óxido de ferro
-        predominante em sua superfície lhe dá uma aparência avermelhada.
-      </p>
+      <div className="info-text">
+        <h2 className="title">{name}</h2>
+        <p>
+          {description}
+        </p>
+      </div>
+
     </div>
   );
 };
