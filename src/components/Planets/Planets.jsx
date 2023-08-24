@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
 import "./styles.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/navigation";
 import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Navigation } from "swiper/modules";
+
+import { Navigation } from "swiper/modules";
+
 import BoxSlide from "../BoxSlide/BoxSlide";
 
 import mars from "../../assets/img/planets/marte.webp";
@@ -73,17 +75,7 @@ const Planets = () => {
     <section className="planets-section container">
       <h1 className="title">Planetas do Sistema Solar</h1>
 
-      <Swiper
-        slidesPerView={1}
-        centeredSlides={true}
-        spaceBetween={30}
-        pagination={{
-          type: "fraction",
-        }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         {planets.map((item) => (
           <SwiperSlide key={item.name}>
             <BoxSlide

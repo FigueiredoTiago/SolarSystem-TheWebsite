@@ -2,6 +2,7 @@ import "./styles.scss";
 import astronaut from "../../assets/img/astronaut.svg";
 import dog from "../../assets/img/dogNauta.svg";
 import earth from "../../assets/img/earth.svg";
+import Atropos from "atropos/react";
 
 
 const Home = () => {
@@ -11,13 +12,21 @@ const Home = () => {
         <img src={earth} alt="" className="earth" />
         <img src={dog} className="dog" />
 
-        <div className="info-title">
-          <h1 className="home-title">Wellcome To Solar System</h1>
-          <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
-          <button className="button">
-            <a href="#solar-system">Explore Now</a>
-          </button>
-        </div>
+        <Atropos
+          activeOffset={40}
+          shadowScale={1.05}
+          onEnter={() => console.log("Enter")}
+          onLeave={() => console.log("Leave")}
+          onRotate={(x, y) => console.log("Rotate", x, y)}
+        >
+          <div className="info-title">
+            <h1 className="home-title">Wellcome To Solar System</h1>
+            <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
+            
+              <a href="#solar-system" className="button">Explore Now</a>
+            
+          </div>
+        </Atropos>
 
         <img src={astronaut} className="astronauta" />
       </section>

@@ -1,10 +1,10 @@
-@import '../../sass/grid';
+@import "../../sass/grid";
 .bg-div {
   height: 100vh;
 
   background-image: url("../../assets/img/solarSBg.svg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   overflow-x: hidden;
 }
@@ -36,7 +36,7 @@
     font-size: 2.4rem;
   }
 
-  @include device('s') {
+  @include device("s") {
     .home-title {
       font-size: 2.4rem;
     }
@@ -49,20 +49,54 @@
 
 .button {
   box-shadow: 3px 4px 0px 0px #fff;
-  background-color: #000000;
   border-radius: 5px 5px 30px 5px;
-  border: 1px solid #000000;
-  display: inline-block;
-  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
   padding: 12px 44px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 3s, color 0.3s;
+  z-index: 1;
 
-  a {
-    text-decoration: none;
-    color: #ffffff;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform-origin: left;
+  transition: left 0.3s;
+  z-index: -1;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 0px 0px #000000;
+}
+
+.button:hover::before {
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
   font-size: 17px;
   font-weight: bold;
+
+  &:hover {
+    color: #000000;
   }
 }
+
 
 .astronauta {
   width: 100%;
@@ -73,7 +107,7 @@
   right: -5%;
   top: 15rem;
 
-  @include device('s') {
+  @include device("s") {
     top: auto;
     bottom: 0;
     right: 0;
@@ -89,11 +123,11 @@
   max-width: 200px;
   animation: astronautFloat 5s infinite alternate;
 
-  @include device('m') {
+  @include device("m") {
     bottom: 0;
   }
 
-  @include device('s') {
+  @include device("s") {
     display: none;
   }
 }
