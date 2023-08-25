@@ -1,3 +1,4 @@
+import Curiosities from "./components/Curiosities/Curiosities";
 import Home from "./components/Home/Home";
 import Planets from "./components/Planets/Planets";
 import SolarSystem from "./components/SolarSystem/SolarSystem";
@@ -9,6 +10,7 @@ function App() {
       <Home />
       <SolarSystem  />
       <Planets />
+      <Curiosities />
     </>
   );
 }
