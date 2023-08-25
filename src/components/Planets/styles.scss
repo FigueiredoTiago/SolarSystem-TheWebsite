@@ -3,6 +3,7 @@
   min-height: 100vh;
 
   .title {
+    height: 10vh;
     text-align: center;
     font-size: 4.8rem;
 
@@ -11,9 +12,9 @@
     }
   }
 
-  .swiper {
-    min-height: 100vh;
-  }
+  // .swiper {
+  //   min-height: 100vh;
+  // }
 
   .swiper-slide img {
     display: block;
