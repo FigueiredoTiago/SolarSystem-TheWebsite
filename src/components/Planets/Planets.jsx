@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
 import "./styles.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/navigation";
 import "swiper/css";
-
-import { Navigation } from "swiper/modules";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 
 import BoxSlide from "../BoxSlide/BoxSlide";
 
@@ -73,10 +72,9 @@ const Planets = () => {
 
   return (
     <section className="planets-section container">
-      
       <h1 className="title grid-12">Planetas do Sistema Solar</h1>
 
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         {planets.map((item) => (
           <SwiperSlide key={item.name}>
             <BoxSlide

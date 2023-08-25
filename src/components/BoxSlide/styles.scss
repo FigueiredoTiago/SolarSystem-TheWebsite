@@ -5,6 +5,7 @@
   backdrop-filter: blur(1rem);
   border-radius: 3rem;
   height: calc(100vh - 10vh);
+  padding: 1rem;
 
 
 
@@ -15,6 +16,12 @@
     background-position: center;
     background-size: 63%;
     background-repeat: no-repeat;
+
+
+    @include device("s") {
+      background-size: 100%;
+      height: 35%;
+    }
     
   }
 
@@ -22,8 +29,10 @@
   .info-text {
     width: 100%;
     height: 40%;
-    
-    background-color: rgb(2, 69, 47);
+
+    @include device("s") {
+      height: 65%;
+    }
 
     .title {
       font-size: 2.8rem;
@@ -32,6 +41,10 @@
     p {
       font-size: 1.6rem;
       text-align: justify;
+
+      @include device("s") {
+        font-size: 1.4rem;
+      }
     }
   }
 
