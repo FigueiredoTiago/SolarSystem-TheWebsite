@@ -1,14 +1,9 @@
-@import '../../sass/grid';
+@import "../../sass/grid";
 
 .SolarSystem-section {
   min-height: 100vh;
   width: 100%;
-
-
-
-  .title {
-    font-size: 4.8rem;
-  }
+  padding: 4rem 0;
 
   .left-section {
     display: flex;
@@ -17,7 +12,7 @@
     gap: 2rem;
     height: 100vh;
     padding: 0 2rem;
-
+    
 
     .info-text {
       width: 100%;
@@ -27,25 +22,36 @@
       justify-content: center;
       gap: 2rem;
       padding: 0 3rem;
+      
 
-    }
+      .title {
+        font-size: 4.8rem;
+      }
 
-    @include device('m') {
+      @include device("s") {
+        .title {
+          font-size: 2.4rem;
+        }
+
         padding: 0;
+      }
     }
 
-    @include device('s') {
+    @include device("m") {
+      padding: 0;
+    }
+
+    @include device("s") {
       padding: 0;
     }
   }
 
   .right-section {
-    height: 100%;
-   
+    height: 100vh;
+
     img {
       height: 100%;
       width: 100%;
     }
-
   }
 }

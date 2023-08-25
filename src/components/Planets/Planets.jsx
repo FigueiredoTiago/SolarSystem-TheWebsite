@@ -73,6 +73,7 @@ const Planets = () => {
 
   return (
     <section className="planets-section container">
+      
       <h1 className="title">Planetas do Sistema Solar</h1>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">

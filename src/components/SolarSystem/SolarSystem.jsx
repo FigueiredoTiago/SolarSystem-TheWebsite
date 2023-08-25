@@ -2,7 +2,7 @@ import "./styles.scss";
 import system from "../../assets/img/sistemSolar.svg";
 
 
-const SolarSystem = () => {
+const SolarSystem = () => { 
   return (
     <section className="SolarSystem-section container" id="solar-system">
       <section className="left-section grid-6">
