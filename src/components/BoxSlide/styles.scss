@@ -29,9 +29,11 @@
   .info-text {
     width: 100%;
     height: 40%;
+    
 
     @include device("s") {
       height: 65%;
+      padding: 0 .5rem;
     }
 
     .title {
