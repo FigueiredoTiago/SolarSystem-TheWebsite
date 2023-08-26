@@ -3,9 +3,19 @@
 .curiosities-section {
   height: 100vh;
   min-height: 100vh;
+  padding: 3rem 0;
 
   display: flex;
   align-items: center;
+
+  @include device("s") {
+    flex-direction: column-reverse;
+
+    .right {
+      align-items: normal;
+    }
+
+  }
 
   .left {
     background-color: #ffffff18;
@@ -45,6 +55,12 @@
       text-align: justify;
       margin-bottom: 1rem;
       text-shadow: 0 0 1rem #000000;
+
+
+      @include device("s") {
+        font-size: 1.6rem;
+        line-height: normal;
+      }
     }
   }
 
