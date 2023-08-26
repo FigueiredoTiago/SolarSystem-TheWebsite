@@ -21,51 +21,51 @@ const Planets = () => {
     {
       name: "Mercurio",
       description:
-        "Mercúrio é o primeiro planeta do sistema solar, a contar a partir da proximidade com o Sol, distando-se em apenas 57,9 milhões de quilômetros da estrela em média. Com um diâmetro de 4878 km, é o menor entre os planetas do nosso sistema solar e também o que realiza mais rapidamente o seu movimento de translação, executado a uma velocidade de aproximadamente 47,87 km/s, levando, assim, 88 dias para completar sua volta ao redor do sol.",
+        "Mercúrio, o planeta mais próximo do Sol, é um mundo rochoso e desolado com um diâmetro de cerca de 4.880 km. Sua proximidade solar resulta em temperaturas extremas, variando de -173°C a 427°C. Possui uma órbita elíptica e um período de rotação excepcionalmente longo de cerca de 59 dias terrestres, enquanto seu dia solar dura apenas 176 dias. Sua superfície apresenta uma variedade de características, incluindo vastas planícies, crateras de impacto e escarpas íngremes chamadas de falhas. A sonda MESSENGER, lançada em 2004, foi a primeira a orbitar Mercúrio e revelou vulcões extintos e evidências de água gelada em suas regiões sombreadas. A ausência de atmosfera significativa permite que a superfície de Mercúrio seja bombardeada diretamente pelo vento solar, resultando em uma tênue exosfera. Sua baixa gravidade torna difícil reter gases, resultando em uma atmosfera praticamente inexistente, composta principalmente de átomos dispersos.",
       img: mercurio,
     },
     {
       name: "Venus",
       description:
-        "Vénus (português europeu) ou Vênus (português brasileiro) (AO 1990: Vénus ou Vênus) é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite. Depois da Lua, é o objeto mais brilhante do céu noturno, atingindo uma magnitude aparente de -4,6, o suficiente para produzir sombras. A distância média da Terra a Vênus é de 0,28 AU, sendo esta a menor distância entre qualquer par de planetas.",
+        "Vênus é o segundo planeta mais próximo do Sol e é muitas vezes chamado de irmão gêmeo da Terra devido ao seu tamanho e composição similares. Sua atmosfera densa é composta principalmente de dióxido de carbono, causando um intenso efeito estufa que o torna o planeta mais quente do sistema solar, com temperaturas superiores a 450°C.Sua rotação é extremamente lenta e peculiar, ocorrendo na direção oposta à maioria dos planetas, resultando em um dia solar mais longo que seu ano - um dia em Vênus dura cerca de 243 dias terrestres e seu ano dura aproximadamente 225 dias terrestres.A superfície venusiana é marcada por vastas planícies vulcânicas, altas montanhas e muitos impactos de crateras. A pressão atmosférica na superfície é esmagadora e é cerca de 92 vezes a da Terra.",
       img: venus,
     },
     {
       name: "Terra",
       description:
-        "A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto maior dos oito planetas do Sistema Solar. É também o maior dos quatro planetas telúricos. É por vezes designada como Mundo ou Planeta Azul. Lar de milhões de espécies de seres vivos, incluindo os humanos, a Terra é o único corpo celeste onde é conhecida a existência de vida. O planeta formou-se há 4,56 bilhões de anos, e a vida surgiu na sua superfície um bilhão de anos depois. Desde então, a biosfera terrestre alterou significativamente a atmosfera e outros fatores abióticos do planeta.",
+        "A Terra é o terceiro planeta a partir do Sol e é o único conhecido por abrigar vida. Com um diâmetro de cerca de 12.742 km, possui uma diversidade única de ecossistemas e uma atmosfera rica em oxigênio e nitrogênio, essenciais para a vida como a conhecemos.Sua rotação leva aproximadamente 24 horas, resultando em um dia e uma noite, enquanto sua órbita ao redor do Sol leva cerca de 365 dias, definindo nosso ano. A presença de água líquida em sua superfície é um fator crucial para a vida, e os oceanos cobrem cerca de 71% do planeta.A Terra apresenta uma diversidade de climas, desde as regiões polares até as regiões tropicais. Seu campo magnético protege a vida da radiação solar e cósmica. A exploração espacial permitiu o estudo detalhado de suas características, incluindo montanhas, oceanos, desertos e ecossistemas variados.",
       img: terra,
     },
     {
       name: "Marte",
       description:
-        "Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o Planeta Vermelho, porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.",
+        "Marte, o quarto planeta a partir do Sol, é muitas vezes chamado de Planeta Vermelho devido à cor de sua superfície. Possui um diâmetro de aproximadamente 6.779 km e é conhecido por suas características geológicas distintas, como vulcões, cânions e a maior montanha do sistema solar, o Monte Olimpo.Sua atmosfera fina é composta principalmente de dióxido de carbono, e a pressão na superfície é apenas uma fração da pressão na Terra. Marte tem estações como a Terra, mas sua órbita elíptica resulta em variações extremas de temperatura. Várias sondas e rovers, como o Curiosity e o Perseverance da NASA, exploraram a superfície marciana, encontrando evidências de água líquida no passado e sugerindo a possibilidade de habitabilidade. A busca por sinais de vida passada ou presente é um dos principais objetivos da exploração de Marte.",
       img: mars,
     },
 
     {
       name: "Jupiter",
       description:
-        "Júpiter é o maior planeta do Sistema Solar, tanto em diâmetro quanto em massa, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno. Estes quatro planetas são por vezes chamados de planetas jupiterianos ou planetas jovianos, e são os quatro gigantes gasosos, isto é, que não são compostos primariamente de matéria sólida.",
+        "Júpiter, o maior planeta do sistema solar, é um gigante gasoso com um diâmetro de aproximadamente 139.822 km. Sua massa é maior do que a de todos os outros planetas combinados. Possui um sistema de anéis e pelo menos 79 luas conhecidas, incluindo as quatro grandes luas galileanas: Io, Europa, Ganimedes e Calisto.Sua atmosfera é composta principalmente de hidrogênio e hélio, e suas características mais proeminentes incluem as faixas de nuvens coloridas e a Grande Mancha Vermelha, uma gigantesca tempestade que existe há séculos. A atmosfera turbulenta de Júpiter também é marcada por relâmpagos intensos.Júpiter possui um campo magnético extremamente poderoso, e sua influência gravitacional é vital para a estabilidade do sistema solar, protegendo os planetas internos de muitos objetos do cinturão de asteroides. A sonda Juno da NASA tem estudado Júpiter desde 2016, fornecendo informações detalhadas sobre sua estrutura interna e atmosfera.",
       img: jupiter,
     },
     {
       name: "Saturno",
       description:
-        "Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar atrás de Júpiter. Pertencente ao grupo dos gigantes gasosos, possui cerca de 95 massas terrestres e orbita a uma distância média de 9,5 unidades astronômicas.",
+        "Saturno, conhecido por seus impressionantes anéis, é o sexto planeta a partir do Sol. Seu diâmetro é de cerca de 116.464 km. Os anéis são compostos principalmente de partículas de gelo e rocha e são divididos em várias faixas distintas.Saturno é um gigante gasoso, predominantemente composto de hidrogênio e hélio. Ele tem mais de 80 luas conhecidas, sendo a maior delas, Titã, com uma atmosfera densa e rica em nitrogênio.A sonda Cassini-Huygens, uma missão conjunta da NASA e da ESA, explorou Saturno e suas luas, fornecendo detalhes sobre sua atmosfera, anéis e luas, incluindo descobertas sobre a possibilidade de água líquida em Encélado e lagos de hidrocarbonetos líquidos em Titã.A característica mais icônica de Saturno, seus deslumbrantes anéis, são compostos de inúmeras partículas de gelo e rocha em órbita ao seu redor. Eles variam em espessura e brilho e são visíveis da Terra com um telescópio amador.",
       img: saturno,
     },
     {
       name: "Urano",
       description:
-        "Urano é o sétimo planeta a partir do Sol, o terceiro maior e o quarto mais massivo dos oito planetas do Sistema Solar. Foi nomeado em homenagem ao deus grego do céu, Urano. Embora seja visível a olho nu em boas condições de visualização, não foi reconhecido pelos astrônomos antigos como um planeta devido a seu pequeno brilho e lenta órbita. William Herschel anunciou sua descoberta em 13 de março de 1781, expandindo as fronteiras do Sistema Solar pela primeira vez na história moderna. Urano foi também o primeiro planeta a ser descoberto por meio de um telescópio.",
+        "Urano, o sétimo planeta a partir do Sol, é um gigante gelado com um diâmetro de cerca de 50.724 km. Sua inclinação axial extrema resulta em um movimento de rotação deitado, com seus polos apontando quase diretamente para o Sol. Urano é composto principalmente de hidrogênio, hélio e metano, o que confere sua coloração azul-esverdeada característica. Ele possui um sistema de anéis, embora menos impressionante do que os de Saturno, e 27 luas conhecidas, incluindo Miranda, com suas características superficiais únicas.A sonda Voyager 2 foi a única a visitar Urano, em 1986, fornecendo informações limitadas sobre o planeta e suas luas. Sua atmosfera turbulenta apresenta ventos fortes e atividade climática. Sua peculiar orientação magnética também é única entre os planetas.",
       img: urano,
     },
 
     {
       name: "Netuno",
       description:
-        "Netuno ou Neptuno (AO 1990: Netuno ) é o oitavo planeta do Sistema Solar, o último a partir do Sol desde a reclassificação de Plutão para a categoria de planeta anão, em 2006. Pertencente ao grupo dos gigantes gasosos, possui um tamanho ligeiramente menor que o de Urano, mas maior massa, equivalente a 17 massas terrestres. Netuno orbita o Sol a uma distância média de 30,1 unidades astronômicas.",
+        "Netuno, o oitavo planeta a partir do Sol, é um gigante gasoso com um diâmetro de cerca de 49.244 km. É conhecido por sua coloração azul intensa devido à presença de metano em sua atmosfera. Com ventos extremamente rápidos, Netuno abriga o sistema de tempestades mais forte do sistema solar, incluindo a Grande Mancha Escura. Seu clima é caracterizado por nuvens de gelo e atividade climática intensa. Netuno tem 14 luas conhecidas, incluindo Tritão, um objeto intrigante com uma órbita retrógrada e atividade geológica. A sonda Voyager 2 foi a única a visitar Netuno, em 1989, fornecendo informações valiosas sobre sua atmosfera, anéis e luas. Seu interior é composto principalmente de água, amônia e rocha, e sua atmosfera contém uma mistura de gases, incluindo hidrogênio, hélio e metano. Netuno também possui anéis, embora sejam difíceis de ver a partir da Terra.",
       img: netuno,
     },
   ];

@@ -11,6 +11,7 @@ const BoxSlide = ({ name, description, img }) => {
       <div className="info-text grid-6">
 
         <h2 className="title">{name}</h2>
+        
         <p>{description}</p>
 
       </div>

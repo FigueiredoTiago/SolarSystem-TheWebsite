@@ -7,8 +7,6 @@
   height: calc(100vh - 10vh);
   padding: 1rem;
 
-
-
   .box-img {
     width: 100%;
     height: 60%;
@@ -17,27 +15,24 @@
     background-size: 63%;
     background-repeat: no-repeat;
 
-
     @include device("s") {
       background-size: 100%;
       height: 35%;
     }
-    
   }
-
 
   .info-text {
     width: 100%;
     height: 40%;
-    
+    padding: 0 1rem;
 
     @include device("s") {
       height: 65%;
-      padding: 0 .5rem;
+      padding: 0 0.5rem;
     }
 
     .title {
-      margin-top: .5rem;
+      margin-top: 0.5rem;
       font-size: 2.8rem;
 
       @include device("s") {
@@ -54,6 +49,4 @@
       }
     }
   }
-
- 
 }
