@@ -1,5 +1,5 @@
 import "./styles.scss";
-import astronaut from "../../assets/img/astronaut.svg";
+import astronaut from "../../assets/img/Astronaut.svg";
 import dog from "../../assets/img/dogNauta.svg";
 import earth from "../../assets/img/earth.svg";
 import Atropos from "atropos/react";
