@@ -1,5 +1,7 @@
+@import '../../sass/grid';
+
 footer {
-  height: 20rem;
+  min-height: 20rem;
   margin-top: 10rem;
   background-image: linear-gradient(
     100deg,
@@ -10,17 +12,22 @@ footer {
     #180326
   );
 
-  display: flex;
-  align-items: center;
 
   .content-footer {
+    width: 100%;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     gap: 1rem;
 
     p {
       font-style: italic;
+
+      @include device('s') {
+        font-size: 1.2rem;
+        text-align: center;
+      }
     }
   }
 
