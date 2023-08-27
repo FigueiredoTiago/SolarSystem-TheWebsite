@@ -1,4 +1,5 @@
 import Curiosities from "./components/Curiosities/Curiosities";
+import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Planets from "./components/Planets/Planets";
 import Satelite from "./components/Satelites/Satelite";
@@ -15,6 +16,7 @@ function App() {
       <Curiosities />
       <Satelite   />
       <SpacialStation />
+      <Footer />
     </>
   );
 }

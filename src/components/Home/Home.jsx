@@ -21,10 +21,13 @@ const Home = () => {
         >
           <div className="info-title">
             <h1 className="home-title">Wellcome To Solar System</h1>
-            <h1 className="home-subtitle">Descubra os Segredos do Universo</h1>
-            
-              <a href="#solar-system" className="button">Explore Now</a>
-            
+            <h1 className="home-subtitle">
+              Explorando os Mistérios do Sistema Solar
+            </h1>
+
+            <a href="#solar-system" className="button">
+              Explore Now
+            </a>
           </div>
         </Atropos>
 
