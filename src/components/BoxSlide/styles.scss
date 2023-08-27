@@ -24,11 +24,26 @@
   .info-text {
     width: 100%;
     height: 40%;
-    padding: 0 1rem;
+    padding: 2rem;
+
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #313134;
+      height: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #000000;
+      border-radius: 1rem;
+    }
 
     @include device("s") {
       height: 65%;
-      padding: 0 0.5rem;
     }
 
     .title {
@@ -43,6 +58,8 @@
     p {
       font-size: 1.6rem;
       text-align: justify;
+      line-height: 1.6rem;
+      letter-spacing: 1px;
 
       @include device("s") {
         font-size: 1.4rem;
