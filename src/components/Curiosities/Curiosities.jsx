@@ -1,5 +1,5 @@
 import "./styles.scss";
-// import moon from '../../assets/img/moon.svg'
+import moon from '../../assets/img/lua.png';
 
 const Curiosities = () => {
   return (
@@ -58,7 +58,7 @@ const Curiosities = () => {
       </section>
 
       <section className="right grid-6">
-        <img src="https://www.publicdomainpictures.net/pictures/390000/nahled/mond-himmel-transparent-png.png" />
+        <img src={moon} />
       </section>
     </section>
   );
