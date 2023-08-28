@@ -39,7 +39,7 @@ const Satelite = () => {
           geologia.
         </p>
 
-        <p>
+        <p> 
           ▹Satélites de Reconhecimento e Espionagem: Utilizados para fins
           militares, coletando informações estratégicas e de inteligência.
         </p>

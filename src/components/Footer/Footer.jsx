@@ -7,7 +7,7 @@ import linkedin from "../../assets/img/icons/linkedin.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="container content-footer">
+      <div className="content-footer">
         <p>
           Explorando os Mistérios do Sistema Solar | Criado com Amor e
           Fascinação pelo Espaço.
