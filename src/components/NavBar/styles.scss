@@ -1,0 +1,33 @@
+header {
+  height: 10vh;
+  width: 100vw;
+  background-color: #ffffff0b;
+  backdrop-filter: blur(1rem);
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  z-index: 1;
+
+  nav {
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      li a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          color:  #7a13bf;
+        }
+      }
+    }
+  }
+}
