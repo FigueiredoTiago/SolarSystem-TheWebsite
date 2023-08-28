@@ -71,7 +71,7 @@ const Planets = () => {
   ];
 
   return (
-    <section className="planets-section container">
+    <section className="planets-section container" id="planets">
       <h1 className="title grid-12">Planetas do Sistema Solar</h1>
 
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">

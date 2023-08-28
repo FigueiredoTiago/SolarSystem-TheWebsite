@@ -2,6 +2,7 @@
 .SolarSystem-section {
   min-height: 100vh;
   height: 100vh;
+  position: relative;
 
   padding: 3rem 0;
 
@@ -63,7 +64,7 @@
     display: flex;
     justify-content: center;
 
-    @include device('s') {
+    @include device("s") {
       margin-bottom: 5rem;
     }
   }

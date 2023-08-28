@@ -1,6 +1,5 @@
 import "./styles.scss";
 import system from "../../assets/img/sistemSolar.svg";
-
 const SolarSystem = () => {
   return (
     <section className="SolarSystem-section container" id="solar-system">
