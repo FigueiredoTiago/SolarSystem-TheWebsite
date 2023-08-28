@@ -3,6 +3,7 @@ import astronaut from "../../assets/img/Astronaut.svg";
 import dog from "../../assets/img/dogNauta.svg";
 import earth from "../../assets/img/earth.svg";
 import Atropos from "atropos/react";
+import arrow from '../../assets/img/icons/arrow.svg';
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
             </h1>
 
             <a href="#solar-system" className="button">
-              Explore Now
+              Explore Now <img src={arrow} />
             </a>
           </div>
         </Atropos>
