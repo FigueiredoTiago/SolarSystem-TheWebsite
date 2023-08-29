@@ -12,7 +12,10 @@ const NavBar = () => {
 
   return (
     <header>
-      <h1>TSS</h1>
+
+      <a href="#home" className="logo">
+        TSS
+      </a>
 
       <img src={menu} className="menu-mobile" onClick={openMenu} />
 

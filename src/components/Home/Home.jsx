@@ -8,7 +8,7 @@ import arrow from '../../assets/img/icons/arrow.svg';
 
 const Home = () => {
   return (
-    <div className="bg-div">
+    <div className="bg-div" id="home">
       <section className="home-section container">
         <img src={earth} alt="" className="earth" />
         <img src={dog} className="dog" />
