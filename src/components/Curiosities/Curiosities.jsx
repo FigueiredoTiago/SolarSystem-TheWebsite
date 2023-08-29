@@ -3,7 +3,7 @@ import moon from '../../assets/img/lua.png';
 
 const Curiosities = () => {
   return (
-    <section className="curiosities-section container">
+    <section className="curiosities-section container" id="moon">
       <section className="left grid-6">
         <h1 className="title"> Lua (Satélite natural da Terra) </h1>
 

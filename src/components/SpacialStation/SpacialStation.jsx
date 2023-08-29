@@ -3,7 +3,7 @@ import "./styles.scss";
 const SpacialStation
  = () => {
   return (
-    <section className="spacial-Station-section container">
+    <section className="spacial-Station-section container" id="station">
       <section className="right grid-6"></section>
 
       <section className="left grid-6">
