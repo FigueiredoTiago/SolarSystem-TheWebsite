@@ -12,16 +12,15 @@ header {
   position: fixed;
   z-index: 10000;
 
-
   .logo {
     font-size: 2.8rem;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+    transition: all .3s ease-in-out;
 
     &:hover {
-      color: #7a13bf;
-      text-decoration: underline;
+      color: #423c46;
     }
   }
 
@@ -36,9 +35,10 @@ header {
         font-weight: bold;
         text-decoration: none;
         color: #fff;
+        transition: all .3s ease-in-out;
 
         &:hover {
-          color: #7a13bf;
+          color: #423c46;
         }
       }
     }
@@ -67,7 +67,6 @@ header {
     padding: 2rem 0;
     background-color: #000000;
     z-index: 100;
-    
 
     ul {
       flex-direction: column;
