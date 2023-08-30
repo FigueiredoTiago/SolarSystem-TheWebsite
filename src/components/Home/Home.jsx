@@ -21,7 +21,7 @@ const Home = () => {
           onRotate={(x, y) => console.log("Rotate", x, y)}
         >
           <div className="info-title">
-            <h1 className="home-title">✦✦✦The Solar System✦✦✦</h1>
+            <h1 className="home-title">✦✦The Solar System✦✦</h1>
             <h1 className="home-subtitle">
               Explorando os Mistérios do Sistema Solar
             </h1>
